@@ -20,6 +20,7 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    void refreshContactList(const QList<Contact> &contacts);
 
 //////////////////////
 private slots:
@@ -32,7 +33,7 @@ private:
     Ui::MainWindow *ui;
     ////////////////////
     ContactList contactList;
-    void refreshContactList(const QList<Contact> &contacts);
+
     ///////////////////
 };
 #endif // MAINWINDOW_H

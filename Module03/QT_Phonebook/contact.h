@@ -1,7 +1,7 @@
 #ifndef CONTACT_H
 #define CONTACT_H
 #include <QString>
-#include <QObject>
+//#include <QObject>
 
 class Contact{
 private:
